@@ -42,12 +42,3 @@ class PostMachine:
             print(f"комманда: {self.index}")
             print('')
             i += 1
-
-program = [
-    "? 1; 3",   
-    "V 2",      
-    "→ 4",      
-    "X 5",      
-    "!",        
-    "← 4"      
-]

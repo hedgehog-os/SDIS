@@ -1,6 +1,6 @@
 from Post_Machine import PostMachine
-from parser import parse
-from Commands import Clear, Mark, Jump, Left,  Right, Stop
+from Parser import Parser
+from Commands import Clear, Mark, Jump, Left, Right, Stop
 
 def main():
     """
@@ -34,6 +34,7 @@ def main():
     machine = None
     program = []
     tape = ''
+    parser = Parser()
 
     print('''Available commands:
     run                 — execute full program
@@ -55,7 +56,6 @@ def main():
     ← <n> or l <n> - move the head left and jump to command n  
     ? <n1>; <n2>   - if current cell is 0, jump to n1; if 1, jump to n2  
     !              - stop the program
-
     ''')
 
     while True:
@@ -116,7 +116,7 @@ def main():
                 if not raw:
                     raw = input("Enter command: ").strip()
                 try:
-                    parsed = parse([raw])
+                    parsed = parser.parse([raw])
                     program.append(parsed)
                     if tape:
                         machine = PostMachine(tape, [cmd for group in program for cmd in group])

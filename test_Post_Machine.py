@@ -1,7 +1,7 @@
 import pytest
 from Post_Machine import PostMachine
 from Commands import Mark, Clear, Right, Left, Jump, Stop
-from parser import parse
+from Parser import Parser
 
 def test_mark_and_clear():
     tape = "000"
@@ -36,7 +36,6 @@ def test_jump_to_clear():
     assert machine.tape[0] == 0
     assert machine.stopped
 
-
 def test_parse_commands():
     raw = [
         "? 1; 3",
@@ -46,7 +45,8 @@ def test_parse_commands():
         "!",
         "← 4"
     ]
-    parsed = parse(raw)
+    parser = Parser()
+    parsed = parser.parse(raw)
     assert isinstance(parsed[0], Jump)
     assert isinstance(parsed[1], Mark)
     assert isinstance(parsed[2], Right)
@@ -64,7 +64,8 @@ def test_full_execution():
         "!",        # stop
         "← 4"       # head = 0 → jump to 4
     ]
-    machine = PostMachine(tape, parse(program))
+    parser = Parser()
+    machine = PostMachine(tape, parser.parse(program))
     machine.run()
     assert machine.stopped
     assert machine.tape[0] == 1
