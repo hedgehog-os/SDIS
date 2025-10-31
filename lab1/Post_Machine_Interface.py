@@ -1,6 +1,6 @@
-from Post_Machine import PostMachine
-from Parser import Parser
-from Commands import Clear, Mark, Jump, Left, Right, Stop
+from lab1.Post_Machine import PostMachine
+from lab1.Parser import Parser
+from lab1.Commands import Clear, Mark, Jump, Left, Right, Stop
 
 def main():
     """

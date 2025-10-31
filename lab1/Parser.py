@@ -1,4 +1,4 @@
-from Commands import Command, Clear, Mark, Jump, Left, Right, Stop
+from lab1.Commands import Command, Clear, Mark, Jump, Left, Right, Stop
 
 class Parser:
     """
