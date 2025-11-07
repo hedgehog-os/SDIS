@@ -9,7 +9,6 @@ from Exceptions import (
 
 if TYPE_CHECKING:
     from documents.Document import Document
-    from Keyword import Keyword
 
 
 class Metadata:
