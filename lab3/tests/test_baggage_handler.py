@@ -1,5 +1,5 @@
 import pytest
-from models.staff.baggage_handler import BaggageHandler
+from models.staff.BaggageHandler import BaggageHandler
 
 class DummyOwner:
     def __init__(self, full_name):

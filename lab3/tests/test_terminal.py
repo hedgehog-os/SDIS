@@ -1,5 +1,5 @@
 import pytest
-from models.infrastructure.terminal import Terminal
+from models.infrastructure.Terminal import Terminal
 
 class DummyGate:
     def __init__(self, gate_number):

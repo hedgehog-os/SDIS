@@ -1,5 +1,5 @@
 import pytest
-from models.operations.cargo_manifest import CargoManifest
+from models.operations.CargoManifest import CargoManifest
 
 def test_valid_initialization():
     manifest = CargoManifest("M001", ["luggage", "mail"], 1000.0)

@@ -1,5 +1,5 @@
 import pytest
-from models.staff.dispatcher import Dispatcher
+from models.staff.Dispatcher import Dispatcher
 
 class DummyFlight:
     def __init__(self, flight_number, destination):

@@ -1,5 +1,5 @@
 import pytest
-from models.infrastructure.runway import Runway
+from models.infrastructure.Runway import Runway
 
 def test_valid_initialization():
     r = Runway("RWY-01", 3000)

@@ -1,5 +1,5 @@
 import pytest
-from models.infrastructure.retail_shop import RetailShop
+from models.infrastructure.RetailShop import RetailShop
 
 class DummyTerminal:
     def __init__(self, name):

@@ -1,5 +1,5 @@
 import pytest
-from models.operations.check_in_desk import CheckInDesk
+from models.operations.CheckInDesk import CheckInDesk
 
 class DummyPassenger:
     def __init__(self, full_name):

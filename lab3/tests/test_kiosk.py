@@ -1,5 +1,5 @@
 import pytest
-from models.infrastructure.kiosk import Kiosk
+from models.infrastructure.Kiosk import Kiosk
 
 def test_valid_initialization():
     kiosk = Kiosk("K1", "arrival hall")

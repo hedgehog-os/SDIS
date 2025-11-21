@@ -1,5 +1,5 @@
 import pytest
-from models.staff.flight_attendant import FlightAttendant
+from models.staff.FlightAttendant import FlightAttendant
 
 class DummyAirport:
     def __init__(self, code):

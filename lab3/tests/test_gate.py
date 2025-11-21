@@ -1,6 +1,6 @@
 import pytest
-from models.infrastructure.gate import Gate
-from exceptions.flight_exceptions import GateConflictException
+from models.infrastructure.Gate import Gate
+from exceptions.GateConflictException import GateConflictException
 
 class DummyFlight:
     def __init__(self, flight_number):

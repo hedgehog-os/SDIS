@@ -1,5 +1,5 @@
 import pytest
-from models.passenger.baggage import Baggage
+from models.passenger.Baggage import Baggage
 
 class DummyPassenger:
     def __init__(self, full_name):

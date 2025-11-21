@@ -1,5 +1,5 @@
 import pytest
-from models.infrastructure.escalator import Escalator
+from models.infrastructure.Escalator import Escalator
 
 def test_valid_initialization():
     e = Escalator("E1", "up")

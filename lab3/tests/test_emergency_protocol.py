@@ -1,5 +1,5 @@
 import pytest
-from models.operations.emergency_protocol import EmergencyProtocol
+from models.operations.EmergencyProtocol import EmergencyProtocol
 
 def test_valid_initialization():
     ep = EmergencyProtocol("EP001", "Fire in terminal", "high")

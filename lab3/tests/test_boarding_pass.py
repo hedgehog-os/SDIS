@@ -1,5 +1,5 @@
 import pytest
-from models.operations.boarding_pass import BoardingPass
+from models.operations.BoardingPass import BoardingPass
 
 class DummyTicket:
     def __init__(self, ticket_number, seat_number, is_active=True):

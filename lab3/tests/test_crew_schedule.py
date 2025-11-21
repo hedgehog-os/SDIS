@@ -1,5 +1,5 @@
 import pytest
-from models.staff.crew_schedule import CrewSchedule
+from models.staff.CrewSchedule import CrewSchedule
 
 class DummyFlight:
     def __init__(self, flight_number):

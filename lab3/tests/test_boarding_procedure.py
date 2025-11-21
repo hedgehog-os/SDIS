@@ -1,5 +1,5 @@
 import pytest
-from models.operations.boarding_procedure import BoardingProcedure
+from models.operations.BoardingProcedure import BoardingProcedure
 
 class DummyPassenger:
     def __init__(self, full_name):

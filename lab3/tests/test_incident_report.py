@@ -1,5 +1,5 @@
 import pytest
-from models.operations.incident_report import IncidentReport
+from models.operations.IncidentReport import IncidentReport
 
 def test_valid_initialization():
     report = IncidentReport("IR001", "Fire alarm triggered", "high", "2025-11-06T10:00")

@@ -1,5 +1,5 @@
 import pytest
-from models.staff.customs_officer import CustomsOfficer
+from models.staff.CustomsOfficer import CustomsOfficer
 
 class DummyPassenger:
     def __init__(self, full_name):

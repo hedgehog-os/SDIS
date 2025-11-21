@@ -1,5 +1,5 @@
 import pytest
-from models.infrastructure.parking_lot import ParkingLot
+from models.infrastructure.ParkingLot import ParkingLot
 
 def test_valid_initialization():
     lot = ParkingLot("LotA", 5)

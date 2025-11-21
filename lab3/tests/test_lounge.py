@@ -1,5 +1,5 @@
 import pytest
-from models.infrastructure.lounge import Lounge
+from models.infrastructure.Lounge import Lounge
 
 def test_valid_initialization():
     lounge = Lounge("Sky Lounge", 10, is_vip=True)

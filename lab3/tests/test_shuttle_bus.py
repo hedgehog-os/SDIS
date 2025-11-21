@@ -1,5 +1,5 @@
 import pytest
-from models.infrastructure.shuttle_bus import ShuttleBus
+from models.infrastructure.ShuttleBus import ShuttleBus
 
 def test_valid_initialization():
     bus = ShuttleBus("B1", "terminal loop", 20)

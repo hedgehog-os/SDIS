@@ -1,5 +1,5 @@
 import pytest
-from models.operations.visa_control import VisaControl
+from models.operations.VisaControl import VisaControl
 
 class DummyVisa:
     def __init__(self, country, valid_dates):

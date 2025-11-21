@@ -1,5 +1,5 @@
 import pytest
-from models.staff.air_traffic_controller import AirTrafficController
+from models.staff.AirTrafficController import AirTrafficController
 
 class DummyFlight:
     def __init__(self, flight_number):

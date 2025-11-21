@@ -1,5 +1,5 @@
 import pytest
-from models.staff.cleaning_crew import CleaningCrew
+from models.staff.CleaningCrew import CleaningCrew
 
 class DummyRestroom:
     def __init__(self, location_id):

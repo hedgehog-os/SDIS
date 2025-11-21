@@ -1,5 +1,5 @@
 import pytest
-from models.operations.weather_report import WeatherReport
+from models.operations.WeatherReport import WeatherReport
 
 class DummyAircraft:
     def __init__(self, registration, min_operating_temp_c, max_crosswind_kph):

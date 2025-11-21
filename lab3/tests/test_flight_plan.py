@@ -1,5 +1,5 @@
 import pytest
-from models.operations.flight_plan import FlightPlan
+from models.operations.FlightPlan import FlightPlan
 
 class DummyRoute:
     def __init__(self, origin, destination):

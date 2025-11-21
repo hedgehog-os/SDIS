@@ -1,5 +1,5 @@
 import pytest
-from models.passenger.passport import Passport
+from models.passenger.Passport import Passport
 
 @pytest.fixture
 def passport():

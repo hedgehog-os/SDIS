@@ -1,5 +1,5 @@
 import pytest
-from models.infrastructure.airport import Airport
+from models.infrastructure.Airport import Airport
 
 class DummyGate:
     def __init__(self, gate_number, current_flight=None):

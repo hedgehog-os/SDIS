@@ -1,6 +1,6 @@
 import pytest
 from datetime import datetime, timedelta
-from models.flight.flight_schedule import FlightSchedule
+from models.flight.FlightSchedule import FlightSchedule
 
 @pytest.fixture
 def schedule():

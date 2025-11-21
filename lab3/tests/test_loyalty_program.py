@@ -1,5 +1,5 @@
 import pytest
-from models.passenger.loyalty_program import LoyaltyProgram
+from models.passenger.LoyaltyProgram import LoyaltyProgram
 
 def test_valid_initialization():
     lp = LoyaltyProgram("SkyClub", "SC123", "Gold", 500)

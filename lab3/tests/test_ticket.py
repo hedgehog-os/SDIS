@@ -1,6 +1,6 @@
 import pytest
-from models.passenger.ticket import Ticket
-from exceptions.ticket_exceptions import TicketAlreadyCheckedInException
+from models.passenger.Ticket import Ticket
+from exceptions.TicketAlreadyCheckedInException import TicketAlreadyCheckedInException
 
 class DummyFlight:
     def __init__(self, flight_id="FL001"):

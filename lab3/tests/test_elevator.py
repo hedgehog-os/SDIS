@@ -1,5 +1,5 @@
 import pytest
-from models.infrastructure.elevator import Elevator
+from models.infrastructure.Elevator import Elevator
 
 @pytest.fixture
 def elevator():

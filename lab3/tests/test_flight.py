@@ -1,6 +1,6 @@
 import pytest
-from models.flight.flight import Flight
-from exceptions.flight_exceptions import GateConflictException
+from models.flight.Flight import Flight
+from exceptions.GateConflictException import GateConflictException
 
 # Dummy classes
 class DummyPassport:

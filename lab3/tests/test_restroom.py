@@ -1,5 +1,5 @@
 import pytest
-from models.infrastructure.restroom import Restroom
+from models.infrastructure.Restroom import Restroom
 
 def test_valid_initialization():
     r = Restroom("arrival hall", is_accessible=True)

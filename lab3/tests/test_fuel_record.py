@@ -1,5 +1,5 @@
 import pytest
-from models.operations.fuel_record import FuelRecord
+from models.operations.FuelRecord import FuelRecord
 
 class DummyAircraft:
     def __init__(self, registration, max_fuel_capacity_liters):

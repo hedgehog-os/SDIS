@@ -1,5 +1,5 @@
 import pytest
-from models.operations.lost_and_found_report import LostAndFoundReport
+from models.operations.LostAndFoundReport import LostAndFoundReport
 
 class DummyRestroom:
     def __init__(self, location):

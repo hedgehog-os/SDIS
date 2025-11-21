@@ -1,5 +1,5 @@
 import pytest
-from models.operations.maintenance_log import MaintenanceLog
+from models.operations.MaintenanceLog import MaintenanceLog
 
 class DummyAircraft:
     def __init__(self, registration):

@@ -1,5 +1,5 @@
 import pytest
-from models.staff.security_officer import SecurityOfficer
+from models.staff.SecurityOfficer import SecurityOfficer
 
 class DummyPassport:
     def __init__(self, number):

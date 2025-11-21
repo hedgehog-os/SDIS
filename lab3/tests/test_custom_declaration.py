@@ -1,5 +1,5 @@
 import pytest
-from models.operations.customs_declaration import CustomsDeclaration
+from models.operations.CustomsDeclaration import CustomsDeclaration
 
 class DummyPassenger:
     def __init__(self, full_name):

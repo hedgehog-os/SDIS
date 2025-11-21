@@ -1,5 +1,5 @@
 import pytest
-from models.staff.maintenance_technician import MaintenanceTechnician
+from models.staff.MaintenanceTechnician import MaintenanceTechnician
 
 class DummyAircraft:
     def __init__(self, registration_number, model):

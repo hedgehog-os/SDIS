@@ -1,5 +1,5 @@
 import pytest
-from models.passenger.assistance_request import SpecialAssistanceRequest
+from models.passenger.SpecialAssistanceRequest import SpecialAssistanceRequest
 
 class DummyPassenger:
     def __init__(self, full_name):

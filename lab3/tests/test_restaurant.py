@@ -1,5 +1,5 @@
 import pytest
-from models.infrastructure.restaurant import Restaurant
+from models.infrastructure.Restaurant import Restaurant
 
 class DummyTerminal:
     def __init__(self, name):

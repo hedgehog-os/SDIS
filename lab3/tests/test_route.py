@@ -1,5 +1,5 @@
 import pytest
-from models.flight.route import Route
+from models.flight.Route import Route
 
 class DummyAirport:
     def __init__(self, code, city, country):

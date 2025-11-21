@@ -1,5 +1,5 @@
 import pytest
-from models.passenger.visa import Visa
+from models.passenger.Visa import Visa
 
 class DummyPassenger:
     def __init__(self, full_name):

@@ -1,5 +1,5 @@
 import pytest
-from models.operations.security_check import SecurityCheck
+from models.operations.SecurityCheck import SecurityCheck
 
 class DummyPassenger:
     def __init__(self, full_name):

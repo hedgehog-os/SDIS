@@ -1,5 +1,5 @@
 import pytest
-from models.flight.airline import Airline
+from models.flight.Airline import Airline
 
 class DummyAircraft:
     def __init__(self, model, registration_number, capacity):

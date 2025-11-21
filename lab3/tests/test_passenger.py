@@ -1,5 +1,5 @@
 import pytest
-from models.passenger.passenger import Passenger
+from models.passenger.Passenger import Passenger
 from exceptions import InvalidPassportException
 
 class DummyPassport:
